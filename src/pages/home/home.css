@@ -1,0 +1,19 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+    color: black;
+  }
+  
+  .sidebar {
+    flex: 0.20;
+    background-color: #d9d9d9;
+  }
+  
+  .content {
+    flex: 0.80;
+    background-color: #ffffff;
+  }
+  
+
+  

@@ -1,0 +1,33 @@
+.content ul {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .content li p {
+    color: #5f5f5f;
+  }
+
+  .clickable-item {
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background-color: #fefefe;
+    text-align: justify;
+    list-style: none;
+  
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+.clickable-item:hover {
+  background-color: #f0f0f0;
+}
+
+.extra-details {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
