@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './index.css';
 import Home from './pages/home/home';
-import RatePlace from './components/ratePlace'; // 👈 make sure this file exists
+import RatePlace from './components/ratePlace';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';

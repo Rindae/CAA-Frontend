@@ -40,7 +40,7 @@ const RatePlace = () => {
       }
 
       setStatus("Rating submitted successfully!");
-      setTimeout(() => navigate("/"), 2000); // go back to homepage after 2s
+      setTimeout(() => navigate("/"), 2000);
     } catch (err) {
       setStatus(`Error: ${err.message}`);
     }

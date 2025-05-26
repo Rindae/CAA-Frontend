@@ -4,7 +4,7 @@ const Filter = ({ onFilterChange }) => {
   const [filters, setFilters] = useState({
     place: false,
     event: false,
-    maxPrice: 500, // default value
+    maxPrice: 500, 
   });
 
   const handleCheckboxChange = (key) => {
