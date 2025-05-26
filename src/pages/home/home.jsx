@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Filter from "../../components/filter/filter";
-import FilteredDataView from "../../components/filteredDataView";
+import FilteredDataView from "../../components/filteredData/filteredDataView";
 import './home.css'
 
 const Home = () => {

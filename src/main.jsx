@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './index.css';
 import Home from './pages/home/home';
-import RatePlace from './components/ratePlace';
+import RatePlace from './components/rate/ratePlace';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';

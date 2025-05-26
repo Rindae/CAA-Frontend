@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { getPlaces } from "../api/place";
-import { getEvents } from "../api/event";
+import { getPlaces } from "../../api/place";
+import { getEvents } from "../../api/event";
 import { Link } from "react-router-dom";
 import './FilteredDataView.css';
 
